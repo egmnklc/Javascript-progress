@@ -1,10 +1,10 @@
 import React, { useState, useRef, useEffect } from 'react';
 import TodoList from './TodoList'
-import { v4 as uuidv4 } from 'uuid'
+import { v4 as uuidv4 } from 'uuid' //* This is the ES6 Import Syntax
 /*
   ! import uuidv4 from "uuid/v4" importing it like so may cause package not exported
   ! error, to fix it, use the import method import { v4 as uuidv4 } from 'uuid'
-  */  
+*/  
  //* Function that generates a random id
 /* 
   * useRef hook allows us to reference elements inside of our html, in our case the input.
